@@ -78,7 +78,7 @@ function myColor() {
     var stop = setInterval(stopColor, 2000)
 
     function stopColor() {
-        ctx.fillStyle = "blue";
+        ctx.fillStyle = "black";
         ctx.fillRect(0, 20, cvs.width, cvs.height);
         clearInterval(stop);
     }
